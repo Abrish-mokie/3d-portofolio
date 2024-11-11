@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Yarn cache files
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+build/
+dist/
+
+# Parcel cache
+.cache/
+
+# Testing and Coverage
+coverage/
+*.lcov
+
+# Editor and OS-specific files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# SASS and CSS cache files
+*.sass-cache/
+*.scss-cache/
+
+# Temporary files
+*.tmp
+*.log
+
+# Static content cache
+.cache-loader/
+
+# ESLint and Prettier files (optional)
+.eslintcache
+.prettiercache
+
+# Storybook build output
+.out/
+storybook-static/
+
+# Ignore production builds
+*.out/
+*.next/
+.next
